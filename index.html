@@ -12,8 +12,8 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <script type="module" crossorigin src="assets/index-DnKIjiw5.js"></script>
-    <link rel="stylesheet" crossorigin href="assets/index-B4hk3LHt.css" />
+    <script type="module" crossorigin src="assets/index-j0Fsf1Sz.js"></script>
+    <link rel="stylesheet" crossorigin href="assets/index-bPoe1jPm.css">
   </head>
   <body
     class="flex relative justify-center items-center min-h-screen bg-gray-100 dark:bg-slate-800"
@@ -24,7 +24,7 @@
     >
       <div id="boxes" class="relative hidden transition-all delay-1000">
         <h1
-          class="cursor-pointer rounded-md bg-white peer-checked:bg-green-900"
+          class="cursor-pointer rounded-md bg-white"
         >
           Your Password Is :
         </h1>
@@ -48,7 +48,7 @@
       <div class="block container mx-auto w-1/2">
         <input type="checkbox" name="" id="uppercase" />
         <label
-          class="cursor-pointer ml-2 w-6 h-6 rounded-md bg-white peer-checked:bg-green-900"
+          class="cursor-pointer ml-2 w-6 h-6 rounded-md bg-white"
           for="uppercase"
           >Use UpperCase</label
         >
@@ -57,7 +57,7 @@
       <div class="block container mx-auto w-1/2">
         <input type="checkbox" name="" id="lowerCase" />
         <label
-          class="cursor-pointer ml-2 w-6 h-6 rounded-md bg-white peer-checked:bg-green-900"
+          class="cursor-pointer ml-2 w-6 h-6 rounded-md bg-white"
           for="lowerCase"
           >Use LowerCase</label
         >
@@ -66,7 +66,7 @@
       <div class="block container mx-auto w-1/2">
         <input type="checkbox" name="" id="number" />
         <label
-          class="cursor-pointer ml-2 w-6 h-6 rounded-md bg-white peer-checked:bg-green-900"
+          class="cursor-pointer ml-2 w-6 h-6 rounded-md bg-white"
           for="number"
           >Use Number</label
         >
@@ -75,12 +75,20 @@
       <div class="block container mx-auto w-1/2">
         <input type="checkbox" name="" id="specialChar" />
         <label
-          class="cursor-pointer ml-2 w-6 h-6 rounded-md bg-white peer-checked:bg-green-900"
+          class="cursor-pointer ml-2 w-6 h-6 rounded-md bg-white"
           for="specialChar"
           >Use Special Characters</label
         >
       </div>
 
+      <div class="block container mx-auto w-1/2">
+        <label
+          class="block h-6 w-full text-sm rounded-md bg-white"
+          for="length"
+          >Enter The Length For Password :</label
+        >
+        <input class="px-4 py-1 border-2 w-full" type="number" required name="length" id="length" placeholder="Enter the length" />
+      </div>
       <button
         id="Generate"
         type="button"
